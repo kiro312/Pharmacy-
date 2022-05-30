@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminn</class>
+ <widget class="QMainWindow" name="adminn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>685</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>685</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <addaction name="actionusers"/>
+    <addaction name="actionmedicine"/>
+   </widget>
+   <widget class="QMenu" name="menusave">
+    <property name="title">
+     <string>save</string>
+    </property>
+    <addaction name="actionsave_user"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menusave"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionusers"/>
+   <addaction name="actionsave_user"/>
+   <addaction name="separator"/>
+   <addaction name="actionmedicine"/>
+   <addaction name="actionsave_medicine"/>
+  </widget>
+  <action name="actionopen">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/new/prefix1/icon/e5d6db89e3ce33b29dd42c470c2300f2.jpg</normaloff>:/new/prefix1/icon/e5d6db89e3ce33b29dd42c470c2300f2.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionsave_medicine">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/new/prefix1/icon/save.ico</normaloff>:/new/prefix1/icon/save.ico</iconset>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+  <action name="actionusers">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/new/prefix1/icon/human-man-men-person-stand-male-activity-46407.png</normaloff>:/new/prefix1/icon/human-man-men-person-stand-male-activity-46407.png</iconset>
+   </property>
+   <property name="text">
+    <string>users</string>
+   </property>
+  </action>
+  <action name="actionmedicine">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/new/prefix1/icon/med.png</normaloff>:/new/prefix1/icon/med.png</iconset>
+   </property>
+   <property name="text">
+    <string>medicine</string>
+   </property>
+  </action>
+  <action name="actionsave_user">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/new/prefix1/icon/save.ico</normaloff>:/new/prefix1/icon/save.ico</iconset>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

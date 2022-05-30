@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/e5d6db89e3ce33b29dd42c470c2300f2.jpg</file>
+        <file>icon/med.png</file>
+        <file>icon/save.ico</file>
+        <file>icon/human-man-men-person-stand-male-activity-46407.png</file>
+    </qresource>
+</RCC>
